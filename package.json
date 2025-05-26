@@ -1,0 +1,25 @@
+{
+  "name": "tgbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "config": {
+    "baseUrl": "https://backend1.tioo.eu.org"
+  },
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "apify-client": "^2.12.4",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.0",
+    "telegraf": "^4.16.3",
+    "test-downloader": "^1.0.5",
+    "trs-media-downloader": "^1.0.2"
+  }
+}
